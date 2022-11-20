@@ -1,16 +1,8 @@
-            #scope with a param same name.
-            #local variables in scope have a brief
-             #DO NOT USE GLOBAL VARIABLES
-message = "a"
+ letters = ["a", "b", "c"]
+if "d" in letters:
 
-def greet(name):
-    message = "a"
 
-def send_email(name):
-    message = "b"
 
-greet("Josh")
-print(message)
 
 
 
